@@ -30,3 +30,9 @@ body {
 .caja9 { background-color: #9980FA; }
 .caja10 { background-color: #833471; }
 
+.contenedor{
+	border: 10px solid black;
+
+	/* Flex */
+	display: flex;
+}
