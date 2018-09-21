@@ -19,27 +19,30 @@ body {
 	padding: 10px;
 
 	/* Flex */
-	flex-basis: 100px;
-	flex-grow: 1;
+	flex-basis: 400px;
+	flex-shrink: 1;
 }
 
 .caja1 { 
 	background-color: #FFC312;
-	flex-grow: 0;
+	
+	/* Flex */
+	flex-shrink: 2;
 }
 .caja2 { 
-	background-color: #C4E538;
+	background-color: #C4E538; 
 }
 .caja3 { 
-	background-color: #12CBC4; 
+	background-color: #12CBC4;
 }
+
 
 .contenedor{
 	border: 10px solid brown;
 	width: 800px;
 	height: 800px;
 	margin: 0 auto;
-	
+
 	/* Flex */
 	display: flex;
 }
